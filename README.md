@@ -13,25 +13,6 @@ A multi-page blog application built using **React (frontend)** and **JavaScript 
 - 🎨 Beautiful UI with CSS animations
 - 🚫 No backend/database — fully frontend-managed
 
-## 📁 Folder Structure
-
-blog-app/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── Login.jsx
-│ │ ├── Register.jsx
-│ │ ├── BlogPage.jsx
-│ │ └── Navbar.jsx
-│ ├── App.js
-│ ├── index.js
-│ ├── index.css
-│ └── users.js (logic - optional separation)
-├── package.json
-└── README.md
-
-
 ## 🚀 How to Run
 
 1. Clone the repo
