@@ -22,12 +22,15 @@ A multi-page blog application built using **React (frontend)** and **JavaScript 
 1. Install dependencies
 
   * npm install
-3. Start the development server
-
-  * npm start
-4. 🔥 Make sure you have react-router-dom installed:
+3. 🔥 Make sure you have react-router-dom installed:
 
   * npm install react-router-dom
+
+
+4. Start the development server
+
+  * npm start
+
 
 
 # 🛠️ Built With
