@@ -16,10 +16,10 @@ A multi-page blog application built using **React (frontend)** and **JavaScript 
 ## 🚀 How to Run
 
 1. Clone the repo
-   
+   * git init
    * git clone https://github.com/Abu999b/BlogApp.git
-   * cd blog-app
-2. Install dependencies
+   * cd BlogApp
+1. Install dependencies
 
   * npm install
 3. Start the development server
