@@ -1,65 +1,70 @@
-# 📝 BlogSphere – A React + JS In-Memory Blogging App
+# Getting Started with Create React App
 
-A multi-page blog application built using **React (frontend)** and **JavaScript (backend logic with data structures)**. No database is used — all functionality relies on **in-memory storage** via JavaScript objects and arrays. Users can register, log in, post blogs (with images), like others' posts, and even send & accept friend requests.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ✨ Features
+## Available Scripts
 
-- 🧑‍💻 User registration & login using hashmaps (no database)
-- 🖼️ Create blog posts with image uploads and text
-- ❤️ Like posts
-- 👥 Send and accept friend requests
-- 👀 View friends’ blog posts only (filtering)
-- 🧭 Multi-page layout with React Router
-- 🎨 Beautiful UI with CSS animations
-- 🚫 No backend/database — fully frontend-managed
+In the project directory, you can run:
 
-## 📁 Folder Structure
+### `npm start`
 
-blog-app/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── Login.jsx
-│ │ ├── Register.jsx
-│ │ ├── BlogPage.jsx
-│ │ └── Navbar.jsx
-│ ├── App.js
-│ ├── index.js
-│ ├── index.css
-│ └── users.js (logic - optional separation)
-├── package.json
-└── README.md
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🚀 How to Run
+### `npm test`
 
-1. Clone the repo  
-   * git clone https://github.com/your-username/blog-app.git
-   * cd blog-app
-   
-2. Install dependencies
-   * npm install
-   
-3. Start the development server
-  * npm start
-    
-4.🔥 Make sure you have react-router-dom installed:
-* npm install react-router-dom
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-# 🛠️ Built With
-* React
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* JavaScript (ES6+)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-* CSS3
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**🙌 Contributions**
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Feel free to fork, improve and make PRs. Star 🌟 the project if you like it!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-**Author: Mohammed Abubakar Siddiq**
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
